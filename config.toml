@@ -1,0 +1,78 @@
+baseurl = "https://avian-lang.org/"
+languageCode = "en-us"
+title = "Avian"
+#preserveTaxonomyNames = true
+theme = "hello-friend-ng"
+#disableHugoGeneratorInject = true
+
+#staticDir = ["static", "themes/Niello/static"]
+
+[params]
+    dateform        = "Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04 -0700"
+
+    homeSubtitle = "The Actor-Oriented Programming Language"
+
+    # Set disableReadOtherPosts to true in order to hide the links to other posts.
+    disableReadOtherPosts = false
+
+    # Metadata mostly used in document's head
+    description = "The official website for Avian, the first Actor-Oriented Programming Language."
+    keywords = "avian, actor-oriented programming, aop, programming, language, programming language, new, procedural, procedural programming"
+    images = [""]
+
+    # Directory name of your blog content (default is `content/posts`)
+    contentTypeName = "posts"
+
+    # Default theme "light" or "dark"
+    defaultTheme = "dark"
+
+
+#[params]
+    
+    #description = "The official website for Avian, the first Actor-Oriented Programming Language."
+    
+
+#[permalinks]
+#    docs = "/docs/:slug/"
+#    aop  = "/aop/:slug/"
+
+[taxonomies]
+    category = "categories"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+    [languages.en]
+        title = "Avian"
+        subtitle = "The Actor-Oriented Programming Language"
+        keywords = "avian, actor-oriented programming, aop, programming, language, programming language, new, procedural, procedural programming"
+        copyright = "&#xA9; 2020 by Alec Sanchez (F0x1fy). All Rights Reserved."
+        readOtherPosts = "Read other posts"
+
+        #[languages.en.menu]
+            [[menu.main]]
+                identifier = "home"
+                name = "Home"
+                url = "/"
+                weight = 1
+
+            [[menu.main]]
+                identifier = "about"
+                name = "About"
+                url = "about"
+                weight = 2
+
+            [[menu.main]]
+                identifier = "documentation"
+                name = "Documentation"
+                url = "/docs"
+                weight = 3
+
+            [[menu.main]]
+                identifier = "actor-oriented programming"
+                name = "Actor-Oriented Programming"
+                url = "/aop"
+                weight = 4
