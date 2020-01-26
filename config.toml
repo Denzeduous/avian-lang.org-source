@@ -13,14 +13,14 @@ theme = "hello-friend-ng"
     dateformNum     = "2006-01-02"
     dateformNumTime = "2006-01-02 15:04 -0700"
 
-    homeSubtitle = "The Actor-Oriented Programming Language"
+    homeSubtitle = "The Behavior-Oriented Programming Language"
 
     # Set disableReadOtherPosts to true in order to hide the links to other posts.
     disableReadOtherPosts = false
 
     # Metadata mostly used in document's head
-    description = "The official website for Avian, the first Actor-Oriented Programming Language."
-    keywords = "avian, actor-oriented programming, aop, programming, language, programming language, new, procedural, procedural programming"
+    description = "The official website for Avian, the first Behavior-Oriented Programming Language."
+    keywords = "avian, behavior-oriented programming, bop, programming, language, programming language, new, procedural, procedural programming"
     images = [""]
 
     # Directory name of your blog content (default is `content/posts`)
@@ -32,12 +32,12 @@ theme = "hello-friend-ng"
 
 #[params]
     
-    #description = "The official website for Avian, the first Actor-Oriented Programming Language."
+    #description = "The official website for Avian, the first Behavior-Oriented Programming Language."
     
 
 #[permalinks]
 #    docs = "/docs/:slug/"
-#    aop  = "/aop/:slug/"
+#    bop  = "/bop/:slug/"
 
 [taxonomies]
     category = "categories"
@@ -47,8 +47,8 @@ theme = "hello-friend-ng"
 [languages]
     [languages.en]
         title = "Avian"
-        subtitle = "The Actor-Oriented Programming Language"
-        keywords = "avian, actor-oriented programming, aop, programming, language, programming language, new, procedural, procedural programming"
+        subtitle = "The Behavior-Oriented Programming Language"
+        keywords = "avian, behavior-oriented programming, bop, programming, language, programming language, new, procedural, procedural programming"
         copyright = "&#xA9; 2020 by Alec Sanchez (F0x1fy). All Rights Reserved."
         readOtherPosts = "Read other posts"
 
@@ -72,7 +72,7 @@ theme = "hello-friend-ng"
                 weight = 3
 
             [[menu.main]]
-                identifier = "actor-oriented programming"
-                name = "Actor-Oriented Programming"
-                url = "/aop"
+                identifier = "behavior-oriented programming"
+                name = "Behavior-Oriented Programming"
+                url = "/bop"
                 weight = 4

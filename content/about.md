@@ -1,15 +1,15 @@
 ---
+title: "About"
 date: 2020-01-20T20:27:17-07:00
 ---
 
-# Avian:
-## The First Actor-Oriented Programming Language
+# Avian: The First Behavior-Oriented Programming Language
 
-Hello and welcome to Avian, the first programming language created for the [Actor-Oriented Programming (AOP) paradigm](https://avian-lang.org/aop/).
-Avian was made with the pillars of AOP in mind:
+Hello an welcome to Avian, the first programming language created for the [Behavior-Oriented Programming (BOP) paradigm](https://avian-lang.org/bop/).
+Avian was made with the pillars of BOP in mind:
 
 - Explicitness over implicitness
-- Employment
+- Appointment
 - Inheritence
 - Polymorphism
 
