@@ -111,9 +111,9 @@ main :: proc () {
 
 This example displays both generics AND choosing different functionality by appointing different behaviors! You're able to use different functionality by appointing separate behaviors, allowing the programmer to decide specific implementations instead of the object itself! The previous example of appointment is very similar to OOP's clunky workaround way of having an abstract object as a member in it, then calling functions through that member, though this is much more elegant and much more flexible (as in OOP this can't be achieved without accounting for it in the class, which removes power from the programmer and locks the implementation away).
 
-### Casts
+### Characters
 
-Casts are another unique addition to BOP. Consider them a structured union of behaviors that allow for templating some members across multiple behaviors quickly and painlessly. Here's an example in Avian (that also shows some more parametric polymorphism!):
+Characters are another unique addition to BOP. Consider them a structured union of behaviors that allow for templating some members across multiple behaviors quickly and painlessly. Here's an example in Avian (that also shows some more parametric polymorphism!):
 
 ```
 Adder :: bvr ('value: ?T/int) {
