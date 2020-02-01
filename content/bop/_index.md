@@ -50,7 +50,7 @@ Tire :: obj {
 }
 
 Vehicle :: bvr (tires: []Tire) {
-    add_tire :: act (tire: Tire, i: int) (
+    add_tire :: trait (tire: Tire, i: int) (
         'tires[i] = tire;
     }
 }
@@ -86,13 +86,13 @@ Foo :: obj {
 }
 
 BubbleSorter :: bvr (list: []?T) {
-    sort :: act () {
+    sort :: trait () {
         ...
     }
 }
 
 QuickSorter :: bvr (list: []?T) {
-    sort :: act () {
+    sort :: trait () {
         ...
     }
 }
@@ -117,31 +117,31 @@ Characters are another unique addition to BOP. Consider them a structured union 
 
 ```
 Adder :: bvr ('value: ?T/int) {
-    add :: act (other: T) {
+    add :: trait (other: T) {
         'value += other;
     }
 }
 
 Subtractor :: bvr ('value: ?T/int) {
-    sub :: act (other: T) {
+    sub :: trait (other: T) {
         'value -= other;
     }
 }
 
 Multiplier :: bvr ('value: ?T/int) {
-    mul :: act (other: T) {
+    mul :: trait (other: T) {
         'value *= other;
     }
 }
 
 Divider :: bvr ('value: ?T/int) {
-    div :: act (other: T) {
+    div :: trait (other: T) {
         'value /= other;
     }
 }
 
 Modulator :: bvr ('value: ?T/int) {
-    mod :: act (other: T) {
+    mod :: trait (other: T) {
         'value %= other;
     }
 }
